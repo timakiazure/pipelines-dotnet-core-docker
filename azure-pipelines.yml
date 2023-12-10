@@ -5,6 +5,9 @@
 trigger:
 - master
 
+pool:
+ name: AzDOagentPool
+
 resources:
 - repo: self
 
