@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '82553112-ceb4-4d4b-b2a1-665dba902302'
+  dockerRegistryServiceConnection: '64da5a21-3339-49f8-beab-7d63746f90b6'
   imageRepository: 'timakiazurepipelinesdotnetcoredocker'
-  containerRegistry: 'timacontainer1.azurecr.io'
+  containerRegistry: 'acrtimatest.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
